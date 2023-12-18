@@ -1,30 +1,43 @@
-# React + TypeScript + Vite
+# Poke Picks Vite React App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This README provides instructions on how to run the "Poke Picks" Vite-based React application on a new machine using `pnpm` as the package manager. Before you begin, ensure you have the necessary prerequisites installed on your new machine:
 
-Currently, two official plugins are available:
+## Prerequisites
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- pnpm: If you haven't installed `pnpm` globally on your new machine, you can install it using npm:
 
-## Expanding the ESLint configuration
+   ```bash
+   npm install -g pnpm
+   ```
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Getting Started
 
-- Configure the top-level `parserOptions` property like this:
+Follow these steps to run the "Poke Picks" Vite React app on your new machine using `pnpm`:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+1. **Clone the Project Repository**: If you haven't already, clone the "Poke Picks" repository from your version control system (e.g., Git) or download the project source code from a source of your choice.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+   ```bash
+   git clone git@github.com:lenell16/poke-picks.git
+   ```
+
+2. **Navigate to the Project Directory**: Open your terminal or command prompt and change the current directory to the root folder of the "Poke Picks" Vite React app.
+
+   ```bash
+   cd Poke-Picks
+   ```
+
+3. **Install Dependencies**: Run the following command to install the project dependencies using `pnpm`:
+
+   ```bash
+   pnpm install
+   ```
+
+   This will download and install all the required packages.
+
+4. **Start the Development Server**: Once the dependencies are installed, you can start the development server by running:
+
+   ```bash
+   pnpm run dev
+   ```
+
+   This command will launch the development server, and you can access the "Poke Picks" app in your web browser at `http://localhost:517c`.

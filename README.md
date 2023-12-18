@@ -40,4 +40,4 @@ Follow these steps to run the "Poke Picks" Vite React app on your new machine us
    pnpm run dev
    ```
 
-   This command will launch the development server, and you can access the "Poke Picks" app in your web browser at `http://localhost:517c`.
+   This command will launch the development server, and you can access the "Poke Picks" app in your web browser at `http://localhost:5173`.
